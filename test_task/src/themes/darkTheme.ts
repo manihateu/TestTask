@@ -1,5 +1,6 @@
 export const darkTheme = {
-    backgroundColor: '#333',
-    textColor: '#f5f5f5',
+    background: '#333',
+    text: 'white',
+    primary: '#007bff',
+    secondary: '#0056b3',
   };
-  

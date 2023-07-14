@@ -27,7 +27,7 @@ const TaskList: React.FC = () => {
   });
 
   return (
-    <ul>
+    <ul style={{padding: 0}}>
       {filteredTasks.map((task: Task) => (
         <TaskItem
           key={task.id}
